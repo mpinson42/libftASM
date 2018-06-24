@@ -116,7 +116,7 @@ void _ft_putstr_fd()
 
 void _ft_putstr()
 {
-	char str[4] = "123";
+	char str[4] = "";
 	write(1,"ft_putstr : ",12);
 	ft_putstr(str);
 	write(1,"\n",1);
@@ -150,7 +150,7 @@ void _ft_strclr()
 
 int main(int argc, char **argv)
 {
-	_ft_isalpha(1);
+	_ft_isalpha(0);
 	_ft_isalnum(1);
 	_ft_isdigit(1);
 	_ft_isascii(1);

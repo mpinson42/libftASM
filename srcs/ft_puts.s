@@ -20,7 +20,7 @@ err:
 
 _ft_puts:
 	cmp rdi,0
-	jmp err
+	je err
 
 
 	mov r9, rdi

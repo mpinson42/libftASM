@@ -12,17 +12,17 @@ _ft_isalnum:
 	mov rax,0
 	cmp rdi,48
 	jb non
-	cmp rdi,57
+	cmp rdi,58
 	jb oui
 
 	cmp rdi,65
 	jb non
-	cmp rdi,90
+	cmp rdi,91
 	jb oui
 
 	cmp rdi,97
 	jb non
-	cmp rdi,122
+	cmp rdi,123
 	jb oui
 
 

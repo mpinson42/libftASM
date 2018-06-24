@@ -29,5 +29,7 @@ while:
 
 
 fin:
+	mov r10, 0
+	mov [rbx], r10b
 	mov rax, r11
 	ret
